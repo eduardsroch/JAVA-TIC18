@@ -304,7 +304,7 @@ Em **Java**, quando declaramos uma variável, estamos criando uma referência pa
 
 Em **C++**, quando declaramos uma variável, estamos criando um ponteiro para um valor. Podemos manipular esse ponteiro diretamente, alocando e liberando memória conforme necessário. Isso nos dá mais controle sobre a memória, mas também nos coloca em risco de erros de memória.
 
-Diferenças entre ponteiros em **Java** e** C++**
+Diferenças entre ponteiros em **Java** e **C++**
 
 A principal diferença entre ponteiros em Java e C++ é que os ponteiros em Java são referências, enquanto os ponteiros em C++ são ponteiros reais. Isso significa que, em Java, o Java gerencia a memória alocada para os objetos automaticamente, enquanto, em C++, o desenvolvedor é responsável por gerenciar a memória alocada para os objetos.
 
