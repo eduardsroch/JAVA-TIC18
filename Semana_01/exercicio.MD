@@ -1,4 +1,4 @@
-**DESENVOLVER CONCEITOS INICIAIS DE PROGRAMAÇÃO EM jAVA**
+**OBJETIVO DA ATIVIDADE - DESENVOLVER CONCEITOS INICIAIS DE PROGRAMAÇÃO EM jAVA**
 
 **1** - O que é uma classe em Java e qual é a diferença entre uma classe e um 
 objeto? Dê 5 exemplos mostrando-os em C++ e em Java.
@@ -294,6 +294,21 @@ class Rectangle : public GeometricFigure {
 > A herança é uma ferramenta poderosa que pode ser usada para reusar código e simplificar o design de sistemas de software. É um conceito importante da orientação a objetos que deve ser compreendido por qualquer desenvolvedor de software.
 
 
+<hr>
+4 - Quando declaramos uma variável em Java, temos, na verdade, um ponteiro. 
+Em C++ é diferente. Discorra sobre esse aspecto. 
+
+**Ponteiros em Java e C++**
+
+Em **Java**, quando declaramos uma variável, estamos criando uma referência para um objeto. Essa referência é um tipo de ponteiro, mas é um ponteiro especial que não pode ser manipulado diretamente. O Java gerencia a memória alocada para os objetos automaticamente, então não precisamos nos preocupar em liberar a memória quando não for mais necessária.
+
+Em **C++**, quando declaramos uma variável, estamos criando um ponteiro para um valor. Podemos manipular esse ponteiro diretamente, alocando e liberando memória conforme necessário. Isso nos dá mais controle sobre a memória, mas também nos coloca em risco de erros de memória.
+
+Diferenças entre ponteiros em **Java** e** C++**
+
+A principal diferença entre ponteiros em Java e C++ é que os ponteiros em Java são referências, enquanto os ponteiros em C++ são ponteiros reais. Isso significa que, em Java, o Java gerencia a memória alocada para os objetos automaticamente, enquanto, em C++, o desenvolvedor é responsável por gerenciar a memória alocada para os objetos.
+
+Outra diferença entre ponteiros em Java e C++ é que, em Java, não podemos acessar o endereço de memória de uma variável diretamente. Em C++, podemos acessar o endereço de memória de uma variável diretamente usando o operador` &`.
 
 
 
