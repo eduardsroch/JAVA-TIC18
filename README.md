@@ -1,4 +1,4 @@
-# <img src="C:\Users\edu__\OneDrive\Documentos\GitHub\JAVA-TIC18\java.png" alt="Logo do C#" width="50" height="50" align="left"> MÓDULO JAVA
+# <img src="JAVA-TIC18\java.png" alt="Logo do C#" width="50" height="50" align="left"> MÓDULO JAVA
 <hr>
 
 Este repositório é destinado ao módulo de JAVA, onde desenvolveremos habilidades em programação utilizando a linguagem JAVA.
