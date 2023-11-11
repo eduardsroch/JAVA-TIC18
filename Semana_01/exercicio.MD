@@ -130,7 +130,7 @@ pessoa.imprimir();
 
 ```
 <hr>
-**2** - Como você declara uma variável em Java e quais são os tipos de dados 
+2 - Como você declara uma variável em Java e quais são os tipos de dados 
 primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na 
 linguagem C++.
  <br>
@@ -187,11 +187,12 @@ string nome = "João da Silva";
 
 ```
 <hr>
-**3** - Explique o conceito de herança em Java e como você pode criar uma 
+3 - Explique o conceito de herança em Java e como você pode criar uma 
 subclasse a partir de uma classe existente. Faça um paralelo com C++, 
 apresentando 5 exemplos.<br>
 A herança é um conceito de orientação a objetos que permite que uma classe herde os atributos e comportamentos de outra classe. A classe que herda é chamada de subclasse, e a classe que é herdada é chamada de superclasse.<br>
 Para criar uma subclasse a partir de uma classe existente em Java:
+
 ```java
 public class SubClasse extends SuperClasse {
   // atributos e comportamentos da subclasse
