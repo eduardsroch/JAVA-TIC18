@@ -13,6 +13,8 @@ Por exemplo, se você estiver lendo dados de um arquivo e ocorrer um erro de lei
 São exceções que o compilador exige que você lide explicitamente.
 Geralmente, essas exceções representam condições que um programa pode razoavelmente esperar e lidar, como erros de entrada e saída (IOException) ou exceções de reflexão (ClassNotFoundException).
 Exemplo:
+
+```java
     import java.io.File;
     import java.io.FileReader;
     import java.io.FileNotFoundException;
@@ -28,8 +30,7 @@ Exemplo:
             }
         }
     }
-    
-
+```
 **Exceções Não Verificadas (Unchecked Exceptions):**
 
 São exceções que o compilador não exige que você lide explicitamente.
