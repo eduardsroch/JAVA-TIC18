@@ -1,4 +1,4 @@
-<img src="https://brandslogos.com/wp-content/uploads/images/java-logo-1.png" alt="Logo do JAVA" width="50" height="50" align="left"> MÓDULO JAVA
+<img src="https://brandslogos.com/wp-content/uploads/images/java-logo-1.png" alt="Logo do JAVA" width="70" height="70" align="left"> MÓDULO JAVA
 <hr>
 
 Este repositório é destinado ao módulo de JAVA, onde desenvolveremos habilidades em programação utilizando a linguagem JAVA.
