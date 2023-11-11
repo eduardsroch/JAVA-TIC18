@@ -13,7 +13,7 @@ Por exemplo, se você estiver lendo dados de um arquivo e ocorrer um erro de lei
 São exceções que o compilador exige que você lide explicitamente.
 Geralmente, essas exceções representam condições que um programa pode razoavelmente esperar e lidar, como erros de entrada e saída (IOException) ou exceções de reflexão (ClassNotFoundException).
 Exemplo:
-    import java.io.File;
+   ``` java import java.io.File;
     import java.io.FileReader;
     import java.io.FileNotFoundException;
     
@@ -28,11 +28,20 @@ Exemplo:
             }
         }
     }
-    
+   ``` 
 
 **Exceções Não Verificadas (Unchecked Exceptions):**
 
 São exceções que o compilador não exige que você lide explicitamente.
 Geralmente, essas exceções representam condições que indicam bugs no programa, como divisão por zero (ArithmeticException) ou acesso a índices inválidos em arrays (ArrayIndexOutOfBoundsException).
 Exemplo:
+```java
+public class ExemploExcecaoNaoVerificada {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3};
+        System.out.println(array[3]); // Isso causará ArrayIndexOutOfBoundsException
+    }
+}
 
+```
+Em resumo, as exceções verificadas são aquelas que o compilador força você a lidar, enquanto as exceções não verificadas são frequentemente relacionadas a erros de programação e o compilador não impõe a necessidade de tratá-las.
